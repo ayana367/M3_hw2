@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_bottom">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/roze"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jisy"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="250dp"
+        android:layout_width="155dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Пак Чхэ Ён"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Ким Джи Су"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>
